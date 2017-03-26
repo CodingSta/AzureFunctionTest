@@ -9,7 +9,7 @@
 <li>위의 Endpoint 를 얻으려면 Functions 를 하나 만든 이후,  화면 우상단 즉 — Save, Run 버튼 오른쪽 Get function URL 링크를 누르시면 됩니다.</li>
 
 
-## Functions 의 General Web Hook 템플릿의 C# 소스는 아래와 같습니다.
+## Functions 의 General Web Hook 템플릿의 C# 소스는 아래와 같습니다. 자신이 만든 Functions 의 소스와 비교해보시면 오류날 일이 줄어들 것입니다.
 
 public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
 {
